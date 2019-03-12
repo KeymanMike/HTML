@@ -1,0 +1,67 @@
+/* .class
+   #id
+   tag
+   (выборочное применение в классе) .class tag tag ....)
+   насследование
+   .class>nassclass*/
+
+body
+{
+    background: #f8f8f8;
+}
+.menu a
+{
+	font: italic 15pt/15pt serif;
+    color: black;
+    text-decoration: none;
+}
+.menu a:hover
+{
+    color: blue;
+    text-decoration: underline;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+h3
+{
+	background: #eaeaea;
+	font-weight: 400;
+	font-size: 18px;
+	color: black;
+}
+.brief_desc
+{
+	color: #707070;
+	font:italic 14px/16px serif;
+	/*line-height: 16px;*/
+}
+.product_desc
+{
+	font: italic 14px/15px serif;
+	color: #707070;
+}
+.detailed_desc
+{
+	font: 400 16px/24px serif;
+	color: #484343;
+	text-align: left;
+}
+img
+{
+	border: medium double #808080;
+}
+.form_info legend, dd>input, textarea
+{
+	font: italic 14px/16px cursive;
+	margin: 5px 10px;
+}
+input[type="text"], input[type="tel"]
+{
+	width: 300px;
+	height: 25px;
+
+}
